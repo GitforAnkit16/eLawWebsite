@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: rgb(3, 151, 181);
+    justify-content: center;
+}
+.footer h2{
+    font-size: 15px;
+    color: whitesmoke;
+}
+.footer h3{
+    font-size: 12px;
+    color:aliceblue;
+    margin-left: 30px;
+}

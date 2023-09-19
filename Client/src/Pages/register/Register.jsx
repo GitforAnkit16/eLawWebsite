@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import upload from "../../utils/upload";
-import "./Register.scss";
+import "./Register.css";
 import newRequest from "../../utils/newRequest";
 import { useNavigate } from "react-router-dom";
 
@@ -12,8 +12,13 @@ function Register() {
     password: "",
     img: "",
     country: "",
+    state:"",
     isSeller: false,
     desc: "",
+    category:"",
+    barcertificate:"",
+    license:"",
+
   });
 
   const navigate = useNavigate();
@@ -73,12 +78,19 @@ function Register() {
             placeholder="Usa"
             onChange={handleChange}
           />
-          <button type="submit">Register</button>
+          <label htmlFor="">State</label>
+          <input
+            name="state"
+            type="text"
+            placeholder="Odisha"
+            onChange={handleChange}
+          />
+          
         </div>
         <div className="right">
-          <h1>I want to become a seller</h1>
+          <h1>I want to become a Service Provider</h1>
           <div className="toggle">
-            <label htmlFor="">Activate the seller account</label>
+            <label htmlFor="">Activate the Service Provider account</label>
             <label className="switch">
               <input type="checkbox" onChange={handleSeller} />
               <span className="slider round"></span>
@@ -91,6 +103,15 @@ function Register() {
             placeholder="+1 234 567 89"
             onChange={handleChange}
           />
+          <br />
+          <label htmlFor="">Profession  </label>
+          <select name="Profession" id="prof">
+            <option value="Lawyer">Lawyer</option>
+            <option value="Arbitrator">Arbitrator</option>
+            <option value="DocumentWriter">DocumentWriter</option>
+            <option value="Notary">Notary</option>
+          </select>
+          <br />
           <label htmlFor="">Description</label>
           <textarea
             placeholder="A short description of yourself"
@@ -101,7 +122,9 @@ function Register() {
             onChange={handleChange}
           ></textarea>
         </div>
+        <button type="submit">Register</button>
       </form>
+      
     </div>
   );
 }

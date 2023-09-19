@@ -8,6 +8,7 @@ import Login from "./Pages/login/Login";
 import Services from './Pages/services/Services';
 import Documentation from "./Pages/documentation/Documentation";
 import Ask from "./Pages/ask/Ask";
+import Register from "./Pages/register/Register";
 import './App.css';
 import {
   createBrowserRouter,
@@ -60,6 +61,10 @@ function App() {
         {
           path:"/ask",
           element:<Ask />
+        },
+        {
+          path:"/register",
+          element:<Register />
         }
       ]
     },
