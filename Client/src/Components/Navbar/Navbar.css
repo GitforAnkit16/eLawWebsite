@@ -4,6 +4,7 @@
     transition: 0.5s all ease;
     position: sticky;
     top: 0;
+    z-index: 100;
 }
 .navbar-active{
     background-color: white;
@@ -23,6 +24,11 @@
     display: flex;
     margin-right: 150px;
     margin-top: 10px;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+    margin-top: 20px;
 }
 .links span{
  padding: 20px;

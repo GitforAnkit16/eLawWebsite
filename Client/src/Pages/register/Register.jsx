@@ -16,8 +16,7 @@ function Register() {
     isSeller: false,
     desc: "",
     category:"",
-    barcertificate:"",
-    license:"",
+   
 
   });
 
@@ -57,7 +56,7 @@ function Register() {
           <input
             name="username"
             type="text"
-            placeholder="johndoe"
+            placeholder="John Snow"
             onChange={handleChange}
           />
           <label htmlFor="">Email</label>
@@ -75,7 +74,7 @@ function Register() {
           <input
             name="country"
             type="text"
-            placeholder="Usa"
+            placeholder="India"
             onChange={handleChange}
           />
           <label htmlFor="">State</label>
@@ -85,7 +84,7 @@ function Register() {
             placeholder="Odisha"
             onChange={handleChange}
           />
-          
+          <button type="submit">Register</button>
         </div>
         <div className="right">
           <h1>I want to become a Service Provider</h1>
@@ -96,11 +95,15 @@ function Register() {
               <span className="slider round"></span>
             </label>
           </div>
+          <label htmlFor="">Document Required</label>
+          <input type="file" onChange={(e) => setFile(e.target.files[0])} />
+          <button href="#">Documents???</button>
+          <div className="docInfo"><p>If you are an advocate then upload your bar council and license, in case you want to apply as a document writer,mediator or expert provide necessary info for your background check</p></div>
           <label htmlFor="">Phone Number</label>
           <input
             name="phone"
             type="text"
-            placeholder="+1 234 567 89"
+            placeholder="+91 99999 99999"
             onChange={handleChange}
           />
           <br />
@@ -110,6 +113,7 @@ function Register() {
             <option value="Arbitrator">Arbitrator</option>
             <option value="DocumentWriter">DocumentWriter</option>
             <option value="Notary">Notary</option>
+            <option value="Expert">Expert</option>
           </select>
           <br />
           <label htmlFor="">Description</label>
@@ -122,7 +126,7 @@ function Register() {
             onChange={handleChange}
           ></textarea>
         </div>
-        <button type="submit">Register</button>
+        
       </form>
       
     </div>

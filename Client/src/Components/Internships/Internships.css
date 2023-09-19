@@ -1,0 +1,15 @@
+.internships{
+    display: flex;
+    flex-direction: column;
+   background-color: rgb(46, 215, 204);;
+    height: 400px;
+
+}
+
+.internships button{
+    display: inline-flex;
+    background-color: rgb(114, 232, 11);
+    height: 100px;
+    width: 100px;
+    margin-top: 200px;
+}

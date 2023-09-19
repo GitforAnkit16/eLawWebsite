@@ -6,7 +6,7 @@ const upload = async (file) => {
   data.append("upload_preset", "fiverr");
 
   try {
-    const res = await axios.post(import.meta.env.VITE_UPLOAD_LINK, data);
+    const res = await axios.post("https://api-ap.cloudinary.com/v1_1/:Ankit_Panda/upload",data);
 
     const { url } = res.data;
     return url;

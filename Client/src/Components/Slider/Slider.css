@@ -1,0 +1,36 @@
+.product--image {
+    width: 100%;
+    height: 16em;
+    object-fit: cover;
+    border-radius:0%;
+  }
+  .Slider{
+    background-color: rgb(46, 215, 204);
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 280px;
+    margin: auto 1rem;
+    text-align: center;
+    font-family: arial;
+  }
+.header{
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    margin: 15px;
+}
+.header h2{
+    margin-right: 220px;
+}
+.card button{
+    border: none;
+    padding: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: #1dbfbf;
+    cursor: pointer;
+
+}
