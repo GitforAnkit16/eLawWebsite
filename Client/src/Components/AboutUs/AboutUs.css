@@ -1,1 +1,28 @@
+.AboutUs{
+    background-color: bisque;
+    background-image: url(https://www.bestlawadvice.net/wp-content/uploads/2021/01/13.jpg);
+    height: 500px;
+    width: 98%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: right;
+}
+
+.contu{
+    width: 500px;
+    margin: 20px;
+    align-items: right;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.but{
+    background-color: brown;
+    border-radius: 10px;
+}
+
 
