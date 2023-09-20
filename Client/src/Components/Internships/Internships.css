@@ -1,15 +1,56 @@
 .internships{
     display: flex;
-    flex-direction: column;
-   background-color: rgb(46, 215, 204);;
-    height: 400px;
+    justify-content: center;
+    margin: 10px;
+}
+/* Container for the two boxes */
+.containerrr {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: rgb(211, 213, 213);
+    background-image: url(png_20230920_095536_0000-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 95%;
+    
+    height: 353px;
 
 }
 
-.internships button{
-    display: inline-flex;
-    background-color: rgb(114, 232, 11);
-    height: 100px;
-    width: 100px;
-    margin-top: 200px;
+/* Style for the individual boxes */
+.box {
+    width: 40%; /* Each box occupies 49% of the screen width */
+    height: 200px;
+    margin: 10px;
+    margin-left: 50px;
+    background-color: none;
+    border: none;
+    display: flex;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    padding: 20px;
+    overflow-y: none;
+    flex-direction: column;
+    color: aliceblue;
+    left: 0;
+}
+
+.buttonn {
+    width: 80px;
+    height: 40px;
+     padding: 10px;
+    background-color: #070707;
+    color: #fff;
+    border: none;
+     border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttonn a{
+text-decoration: none;
+color: white;
 }
