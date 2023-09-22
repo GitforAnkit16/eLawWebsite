@@ -1,19 +1,17 @@
 .internships{
     display: flex;
     justify-content: center;
-    margin: 10px;
+
 }
 /* Container for the two boxes */
 .containerrr {
     display: flex;
     justify-content: left;
     align-items: left;
-   background-color: rgb(46, 215, 204);
+   background-color: #374785;
     background-image: url("../../../public/images/internship.png");
     background-repeat: no-repeat;
     background-position: right;
-    width: 95%;
-    
     height: 353px;
 
 }
@@ -33,7 +31,7 @@
     padding: 20px;
     overflow-y: none;
     flex-direction: column;
-    color: black;
+    color: white;
     left: 0;
 }
 
@@ -41,7 +39,7 @@
     width: 80px;
     height: 40px;
      padding: 10px;
-    background-color: #070707;
+    background-color: rgb(80, 96, 213);
     color: #fff;
     border: none;
      border-radius: 10px;

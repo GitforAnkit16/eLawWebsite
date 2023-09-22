@@ -7,7 +7,10 @@ function Navbar() {
     const [open,setOpen] = useState(false); 
     const[op,setOp]=useState(false);
     const isActive = () => {
-        window.scrollY > 0 ? setActive(true) : setActive(false)
+       if(window.scrollY>500 && window.scrollY<990) 
+            setActive(true) 
+        else 
+            setActive(false)
     }
     useEffect(()=>{
         window.addEventListener("scroll",isActive);
@@ -54,7 +57,7 @@ function Navbar() {
                     </div>
                 )
                 }
-                <Link to = "/documentation" className="link"><span>Documentation</span></Link>
+                
                 <Link to = "/ask" className="link"><span>Ask an Expert</span></Link>
                 {!currentUser && <Link to="/login" className="link"><span>Sign in</span></Link>}
                 {!currentUser &&  <Link to="/register" className="link"><span>Join</span></Link>}
