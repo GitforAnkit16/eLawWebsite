@@ -1,5 +1,5 @@
 .AboutUs{
-    background-color: bisque;
+    background-color: rgb(46, 215, 204);
     background-image: url(https://www.bestlawadvice.net/wp-content/uploads/2021/01/13.jpg);
     height: 500px;
     width: 98%;
@@ -21,7 +21,7 @@
 }
 
 .but{
-    background-color: brown;
+    background-color: black;
     border-radius: 10px;
 }
 

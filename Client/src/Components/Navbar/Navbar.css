@@ -34,11 +34,17 @@
  padding: 20px;
  font-size: 20px;
 }
+.services span{
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+}
 .links Link{
     display: flex;
     margin-right: 150px;
     margin-top: 10px;
 }
+
 .links button{
     color:white;
     border-radius: 5px;
@@ -80,5 +86,22 @@ img{
     color: grey;
     width: 200px;
     font-weight: 300;
+
+}
+.option{
+    position: absolute;
+    top:60px;
+    right: 480px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    color: grey;
+    width: 200px;
+    font-weight: 300;
+
 
 }

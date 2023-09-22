@@ -5,6 +5,7 @@ import newRequest from '../../utils/newRequest';
 function Navbar() {
     const [active,setActive] = useState(false); 
     const [open,setOpen] = useState(false); 
+    const[op,setOp]=useState(false);
     const isActive = () => {
         window.scrollY > 0 ? setActive(true) : setActive(false)
     }
@@ -36,7 +37,23 @@ function Navbar() {
             </Link>
             </div>
             <div className="links">
-                <Link to = "/services" className="link"><span>Services</span></Link>
+                {currentUser && (
+                    <div className="services" onClick={()=>setOp(!op)}>
+                        <span>Services</span>
+                        {op && <div className="option">
+                            <Link className='link' to=  "/lawyers">Lawyers</Link>
+                            <Link className='link' to=  "/arbitrators">Arbitratorss</Link>
+                            <Link className='link' to= "/mediators">Mediators </Link>
+                            <Link className='link' to= "/notaries">Notaries </Link>
+                            <Link className='link' to= "/docwriters">Document Writers </Link>
+                            <Link className='link' to= "/company">Company Registeration </Link>
+                            <Link className='link' to= "/trademark">Trademark and Ip </Link>
+                            <Link className='link' to= "/tax">Tax and Compliance </Link>
+                            <Link className='link' to= "/license">Licenses and Certifications </Link>
+                        </div>}
+                    </div>
+                )
+                }
                 <Link to = "/documentation" className="link"><span>Documentation</span></Link>
                 <Link to = "/ask" className="link"><span>Ask an Expert</span></Link>
                 {!currentUser && <Link to="/login" className="link"><span>Sign in</span></Link>}

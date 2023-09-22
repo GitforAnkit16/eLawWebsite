@@ -5,15 +5,16 @@
     border-radius:0%;
   }
   .Slider{
-    background-color: rgb(46, 215, 204);
+    background-color:rgb(46, 215, 204);;
   }
-  
+ 
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 280px;
     margin: auto 1rem;
     text-align: center;
     font-family: arial;
+    margin-left: 100px;
   }
 .header{
     display: flex;
@@ -21,9 +22,7 @@
     margin-right: 100px;
     margin: 15px;
 }
-.header h2{
-    margin-right: 220px;
-}
+
 .card button{
     border: none;
     padding: 5px;
@@ -33,4 +32,8 @@
     background-color: #1dbfbf;
     cursor: pointer;
 
+}
+
+.react-multiple-carousel__arrow--right {
+  right: calc(1% + 1px);
 }

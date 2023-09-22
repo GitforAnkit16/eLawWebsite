@@ -9,6 +9,15 @@ import Services from './Pages/services/Services';
 import Documentation from "./Pages/documentation/Documentation";
 import Ask from "./Pages/ask/Ask";
 import Register from "./Pages/register/Register";
+import Arbitrators from './Pages/arbitrators/Arbitrators';
+import Docwriters from './Pages/docwriters/Docwriters';
+import Trademark from './Pages/trademark/Trademark';
+import Lawyers from "./Pages/lawyers/Lawyers";
+import License from "./Pages/license/license";
+import Tax from "./Pages/tax/Tax";
+import Mediators from "./Pages/mediators/mediators"
+import Notaries from './Pages/notaries/notaries';
+import Company from './Pages/company/Company';
 import './App.css';
 import {
   createBrowserRouter,
@@ -65,6 +74,42 @@ function App() {
         {
           path:"/register",
           element:<Register />
+        },
+        {
+          path:"/lawyers",
+          element:<Lawyers />
+        },
+        {
+          path:"/arbitrators",
+          element:<Arbitrators />
+        },
+        {
+          path:"/mediators",
+          element:<Mediators />
+        },
+        {
+          path:"/notaries",
+          element:<Notaries />
+        },
+        {
+          path:"/docwriters",
+          element:<Docwriters />
+        },
+        {
+          path:"/company",
+          element:<Company />
+        },
+        {
+          path:"/tax",
+          element:<Tax />
+        },
+        {
+          path:"/trademark",
+          element:<Trademark />
+        },
+        {
+          path:"/license",
+          element:<License />
         }
       ]
     },

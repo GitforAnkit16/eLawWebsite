@@ -8,8 +8,8 @@
     display: flex;
     justify-content: left;
     align-items: left;
-    background-color: rgb(211, 213, 213);
-    background-image: url(png_20230920_095536_0000-removebg-preview.png);
+   background-color: rgb(46, 215, 204);
+    background-image: url("../../../public/images/internship.png");
     background-repeat: no-repeat;
     background-position: right;
     width: 95%;
@@ -33,7 +33,7 @@
     padding: 20px;
     overflow-y: none;
     flex-direction: column;
-    color: aliceblue;
+    color: black;
     left: 0;
 }
 

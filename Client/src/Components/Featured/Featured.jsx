@@ -5,7 +5,7 @@ function Featured() {
     <div className='featured'>
         <div className='container'>
         <div className="left">
-            <h1>Attorneys in a single click</h1>
+            <p>Attorneys in a single click</p>
             <div className="search">
                 <div className="searchInput">
                     <img src="./images/search.svg" alt = "ok"/>
