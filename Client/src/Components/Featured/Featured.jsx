@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Featured.css"
+import search from "../../images/search.svg"
 function Featured() {
   return (
     <div className='featured'>
@@ -8,7 +9,7 @@ function Featured() {
             <p>Attorneys in a single click</p>
             <div className="search">
                 <div className="searchInput">
-                    <img src="./images/search.svg" alt = "ok"/>
+                    <img src={search} alt = "ok"/>
                     <input type ="text" placeholder='Search' />
                 </div>
                 <button>Search</button>

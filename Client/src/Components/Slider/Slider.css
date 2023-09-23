@@ -47,3 +47,18 @@
 .react-multiple-carousel__arrow--right {
   right: calc(1% + 1px);
 }
+.img1{
+  background-image: url("../../images/Criminal\ Law.png");
+  height: 280px;
+  width: 280px;
+}
+.img2{
+  background-image: url("../../images/Civil\ Law.png");
+  height: 280px;
+  width: 280px;
+}
+.img3{
+  background-image: url("../../images/Family\ Law.png");
+  height: 280px;
+  width: 280px;
+}
