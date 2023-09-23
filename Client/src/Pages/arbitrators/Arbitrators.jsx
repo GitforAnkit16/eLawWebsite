@@ -24,7 +24,7 @@ function Arbitrators() {
     "Environmental Arbitrators",
     "Ad Hoc Arbitrators",
     "Court-Appointed Arbitrators",
-    "Family Law Arbitrators";
+    "Family Law Arbitrators"
 
   ];
 
