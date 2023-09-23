@@ -40,7 +40,7 @@ function Navbar() {
             </Link>
             </div>
             <div className="links">
-                {currentUser && (
+                
                     <div className="services" onClick={()=>setOp(!op)}>
                         <span>Services</span>
                         {op && <div className="option">
@@ -55,8 +55,7 @@ function Navbar() {
                             <Link className='link' to= "/license">Licenses and Certifications </Link>
                         </div>}
                     </div>
-                )
-                }
+                
                 
                 <Link to = "/ask" className="link"><span>Ask an Expert</span></Link>
                 {!currentUser && <Link to="/login" className="link"><span>Sign in</span></Link>}
