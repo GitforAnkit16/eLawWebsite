@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Mediators.css';
+import './mediators.css';
 
 function Mediators() {
   const [activeCategory, setActiveCategory] = useState(null);
