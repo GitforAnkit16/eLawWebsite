@@ -14,7 +14,7 @@ function guide(){
             </div>
             <section>
                 {
-             active === "firstcard" && <div>
+             active === "firstcard" && <div className='containero'>
                 <div>
                     <div className='steps'>
                     <div className='boxie'>
@@ -45,12 +45,12 @@ function guide(){
                     </div>
                     </div>
                     </div>
-                    <button>Know More</button>
+                    <div className='butter'><button>Know More</button></div>
                 </div>}
                 
                 
-               { active === "secondcard" && <div>
-                <div className='containero'>
+               { active === "secondcard" && <div className='containero'>
+                <div >
                     <div className='steps'>
                     <div className='boxie'>
                         <div className='img'><img src="https://th.bing.com/th/id/OIP.zDTl2zIbGf_Prb_8QxmCiwHaF4?w=241&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" /></div>
@@ -79,16 +79,13 @@ function guide(){
                         </div>
                     </div>                   
                     </div>
-                    <button>Know More</button>
+                    <div className="butter"><button>Know More</button></div>
                 </div>}
             </section>
             </div>
         </section>
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
         </>
     )
 }
 
 export default guide
-
