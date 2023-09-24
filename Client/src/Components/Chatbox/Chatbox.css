@@ -1,0 +1,69 @@
+
+
+.Chatbox {
+    flex: 2; 
+    background-color: #f8e9a1;
+    box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Chatbox h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .MessageContainer {
+    flex-grow: 0.8; 
+    overflow-y: auto; 
+  }
+  
+  .Message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    max-width: 80%;
+  }
+  
+  .Sent {
+    background-color: #007bff;
+    color: #fff;
+    align-self: flex-end;
+  }
+  
+  .Received {
+    background-color: #f0f0f0;
+    align-self: flex-start;
+  }
+  
+  .MessageInput {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .MessageInput input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  .MessageInput button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .MessageInput button:hover {
+    background-color: #0056b3;
+  }
+  

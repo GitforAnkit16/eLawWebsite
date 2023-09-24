@@ -1,0 +1,34 @@
+.appointment{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #f76c6c;
+  
+}
+.information{
+    display: flex;
+    margin: 20px;
+}
+.informations{
+    border: 1px solid #374785;
+    border-radius: 10px;
+    background-color: #f8e9a1;
+    height: 80vh;
+    width: 700px;
+    margin-left: 300px;
+}
+.information input{
+    margin-left: 15px;
+    padding: 20px;
+}
+.information label{
+    margin-right: 10px;
+    color: black;
+}
+.appointment h1{
+    margin-left: 500px;
+    color: black;
+}
+.informations button{
+    margin-left: 280px ;
+}

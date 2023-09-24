@@ -18,12 +18,14 @@ import Tax from "./Pages/tax/Tax";
 import Mediators from "./Pages/mediators/mediators"
 import Notaries from './Pages/notaries/notaries';
 import Company from './Pages/company/Company';
+import Appointment from './Pages/appointment/Appointment';
 import './App.css';
 import {
   createBrowserRouter,
   RouterProvider,
   Outlet
 } from "react-router-dom";
+
 function App() {
   const Layout = () => {
     return (
@@ -110,6 +112,14 @@ function App() {
         {
           path:"/license",
           element:<License />
+        },
+        {
+          path:"/appointment",
+          element:<Appointment />
+        },
+        {
+          path:"/messages",
+          element:<Messages />
         }
       ]
     },

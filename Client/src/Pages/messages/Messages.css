@@ -1,0 +1,19 @@
+
+.Messages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    border: 1px solid blue;
+   
+  }
+  
+  .ChatAppContainer {
+    display: flex;
+    width: 100%;
+    max-width: 1500px; 
+  }
+  
+  
+  

@@ -55,8 +55,6 @@ function Navbar() {
                             <Link className='link' to= "/license">Licenses and Certifications </Link>
                         </div>}
                     </div>
-                
-                
                 <Link to = "/ask" className="link"><span>Ask an Expert</span></Link>
                 {!currentUser && <Link to="/login" className="link"><span>Sign in</span></Link>}
                 {!currentUser &&  <Link to="/register" className="link"><span>Join</span></Link>}
