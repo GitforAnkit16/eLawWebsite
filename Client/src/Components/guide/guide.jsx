@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./guide.css"
-function guide(){
+function Guide(){
     
     const [active,setactive] = useState("firstcard");
 
@@ -88,4 +88,4 @@ function guide(){
     )
 }
 
-export default guide
+export default Guide
