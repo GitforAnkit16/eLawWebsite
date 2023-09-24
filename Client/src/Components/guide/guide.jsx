@@ -6,7 +6,7 @@ function guide(){
 
     return(
         <>
-        <section className='AboutUs'>
+        <section className='guide'>
             <div>
             <div className="headero">
                 <div className='innerbo' onClick={() => setactive("firstcard")}>Client</div>
