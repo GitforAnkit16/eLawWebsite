@@ -23,6 +23,13 @@ function Lawyers() {
         console.log(err);
      }
 }
+const handleProfile = async () => {
+  try{
+      navigate("/profile");
+   }catch(err){
+      console.log(err);
+   }
+}
   const categories = [
     "Criminal Law",
     "Civil Law",
@@ -71,7 +78,7 @@ function Lawyers() {
               </ul>
               <p>Location:- Bhubaneswar,Odisha,India</p>
               <button onClick={handleBookAppointmentClick}>Book An Appointment</button>
-              <button >View Profile</button>
+              <button onClick={handleProfile}>View Profile</button>
               <button onClick={handleChatClick}>Chat with Lawyer</button>
               
           </div>
@@ -86,7 +93,7 @@ function Lawyers() {
               </ul>
               <p>Location:- Bhubaneswar,Odisha,India</p>
               <button onClick={handleBookAppointmentClick}>Book An Appointment</button>
-              <button >View Profile</button>
+              <button onClick={handleProfile}>View Profile</button>
               <button onClick={handleChatClick}>Chat with Lawyer</button>
           </div>
           <div className='profile'>
@@ -100,7 +107,7 @@ function Lawyers() {
               </ul>
               <p>Location:- Bhubaneswar,Odisha,India</p>
               <button onClick={handleBookAppointmentClick}>Book An Appointment</button>
-              <button >View Profile</button>
+              <button onClick={handleProfile}>View Profile</button>
               <button onClick={handleChatClick}>Chat with Lawyer</button>
           </div>
           <div className='profile'>
@@ -114,7 +121,7 @@ function Lawyers() {
               </ul>
               <p>Location:- Bhubaneswar,Odisha,India</p>
               <button onClick={handleBookAppointmentClick}>Book An Appointment</button>
-              <button >View Profile</button>
+              <button onClick={handleProfile}>View Profile</button>
               <button onClick={handleChatClick}>Chat with Lawyer</button>
           </div>
           <div className='profile'>
@@ -128,7 +135,7 @@ function Lawyers() {
               </ul>
               <p>Location:- Bhubaneswar,Odisha,India</p>
               <button onClick={handleBookAppointmentClick}>Book An Appointment</button> 
-              <button >View Profile</button>
+              <button onClick={handleProfile}>View Profile</button>
               <button onClick={handleChatClick}>Chat with Lawyer</button>
           </div>
           <div className='profile'>
@@ -142,7 +149,7 @@ function Lawyers() {
               </ul>
               <p>Location:- Bhubaneswar,Odisha,India</p>
               <button onClick={handleBookAppointmentClick}>Book An Appointment</button>
-              <button >View Profile</button>
+              <button onClick={handleProfile}>View Profile</button>
               <button onClick={handleChatClick}>Chat with Lawyer</button>
           </div>
           <div className='profile'>
@@ -156,7 +163,7 @@ function Lawyers() {
               </ul>
               <p>Location:- Bhubaneswar,Odisha,India</p>
               <button onClick={handleBookAppointmentClick}>Book An Appointment</button>
-              <button >View Profile</button>
+              <button onClick={handleProfile}>View Profile</button>
               <button onClick={handleChatClick}>Chat with Lawyer</button>
           </div>
           <div className='profile'>
@@ -170,7 +177,7 @@ function Lawyers() {
               </ul>
               <p>Location:- Bhubaneswar,Odisha,India</p>
               <button onClick={handleBookAppointmentClick}>Book An Appointment</button>
-              <button >View Profile</button>
+              <button onClick={handleProfile}>View Profile</button>
               <button onClick={handleChatClick}>Chat with Lawyer</button>
           </div>
           <div className='profile'>
@@ -184,7 +191,7 @@ function Lawyers() {
               </ul>
               <p>Location:- Bhubaneswar,Odisha,India</p>
               <button onClick={handleBookAppointmentClick}>Book An Appointment</button>
-              <button >View Profile</button>
+              <button onClick={handleProfile}>View Profile</button>
               <button onClick={handleChatClick}>Chat with Lawyer</button>
           </div>
           

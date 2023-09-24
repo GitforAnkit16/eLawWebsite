@@ -19,6 +19,7 @@ import Mediators from "./Pages/mediators/mediators"
 import Notaries from './Pages/notaries/notaries';
 import Company from './Pages/company/Company';
 import Appointment from './Pages/appointment/Appointment';
+import Profile from "./Pages/profile/Profile"
 import './App.css';
 import {
   createBrowserRouter,
@@ -120,6 +121,10 @@ function App() {
         {
           path:"/messages",
           element:<Messages />
+        },
+        {
+          path:"/profile",
+          element:<Profile />
         }
       ]
     },
