@@ -1,1 +1,91 @@
+.guide{
+    height: 400px;
+}
+
+.headero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:3rem;
+    
+}
+
+.steps{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size:1.3rem ;
+    margin: 10px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.butter{
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+.butter button{
+    border-radius: 30px;
+}
+
+.containero{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+} 
+
+.boxie{
+    height: 50px;
+    width: fit-content;
+    color: rgb(9, 5, 253);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 0;
+}
+
+.inbox{
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+.innerbo{
+    padding: 20px;
+    margin: auto;
+    font-weight: bold;
+}
+    .contu{
+    width: 800px;
+    margin: 20px;
+    align-items: right;
+    color: black;
+    font-size: 1.5rem;
+    }
+
+.but{
+    background-color: #f8e9a1;
+    border-radius: 10px;
+    color: black;
+}
+
+.about--header{
+    color:black;
+}
+
 
