@@ -65,137 +65,22 @@ const handleProfile = async () => {
         ))}
       </div>
       {activeCategory && (
-        <div className='profiles'>
-        <span className='header-lawyer'>Profiles for {activeCategory}</span>
-          <div className='profile'>
-            <img src = "https://picsum.photos/200/300" alt="profile-dp"></img>
-            <h3>John </h3>
-            <p>Specialization:-</p>
-              <ul>
-                <li>Criminal Law</li>
-                <li>Civil Law</li>
-                <li>Family Law</li>
-              </ul>
-              <p>Location:- Bhubaneswar,Odisha,India</p>
-              <button onClick={handleBookAppointmentClick}>Book An Appointment</button>
-              <button onClick={handleProfile}>View Profile</button>
-              <button onClick={handleChatClick}>Chat with Lawyer</button>
-              
-          </div>
-          <div className='profile'>
-            <img src = "https://picsum.photos/200/300" alt="profile-dp"></img>
-            <h3>John Snow</h3>
-            <p>Specialization:-</p>
-              <ul>
-                <li>Criminal Law</li>
-                <li>Civil Law</li>
-                <li>Family Law</li>
-              </ul>
-              <p>Location:- Bhubaneswar,Odisha,India</p>
-              <button onClick={handleBookAppointmentClick}>Book An Appointment</button>
-              <button onClick={handleProfile}>View Profile</button>
-              <button onClick={handleChatClick}>Chat with Lawyer</button>
-          </div>
-          <div className='profile'>
-            <img src = "https://picsum.photos/200/300" alt="profile-dp"></img>
-            <h3>John Snow</h3>
-            <p>Specialization:-</p>
-              <ul>
-                <li>Criminal Law</li>
-                <li>Civil Law</li>
-                <li>Family Law</li>
-              </ul>
-              <p>Location:- Bhubaneswar,Odisha,India</p>
-              <button onClick={handleBookAppointmentClick}>Book An Appointment</button>
-              <button onClick={handleProfile}>View Profile</button>
-              <button onClick={handleChatClick}>Chat with Lawyer</button>
-          </div>
-          <div className='profile'>
-            <img src = "https://picsum.photos/200/300" alt="profile-dp"></img>
-            <h3>John Snow</h3>
-            <p>Specialization:-</p>
-              <ul>
-                <li>Criminal Law</li>
-                <li>Civil Law</li>
-                <li>Family Law</li>
-              </ul>
-              <p>Location:- Bhubaneswar,Odisha,India</p>
-              <button onClick={handleBookAppointmentClick}>Book An Appointment</button>
-              <button onClick={handleProfile}>View Profile</button>
-              <button onClick={handleChatClick}>Chat with Lawyer</button>
-          </div>
-          <div className='profile'>
-            <img src = "https://picsum.photos/200/300" alt="profile-dp"></img>
-            <h3>John Snow</h3>
-            <p>Specialization:-</p>
-              <ul>
-                <li>Criminal Law</li>
-                <li>Civil Law</li>
-                <li>Family Law</li>
-              </ul>
-              <p>Location:- Bhubaneswar,Odisha,India</p>
-              <button onClick={handleBookAppointmentClick}>Book An Appointment</button> 
-              <button onClick={handleProfile}>View Profile</button>
-              <button onClick={handleChatClick}>Chat with Lawyer</button>
-          </div>
-          <div className='profile'>
-            <img src = "https://picsum.photos/200/300" alt="profile-dp"></img>
-            <h3>John Snow</h3>
-            <p>Specialization:-</p>
-              <ul>
-                <li>Criminal Law</li>
-                <li>Civil Law</li>
-                <li>Family Law</li>
-              </ul>
-              <p>Location:- Bhubaneswar,Odisha,India</p>
-              <button onClick={handleBookAppointmentClick}>Book An Appointment</button>
-              <button onClick={handleProfile}>View Profile</button>
-              <button onClick={handleChatClick}>Chat with Lawyer</button>
-          </div>
-          <div className='profile'>
-            <img src = "https://picsum.photos/200/300" alt="profile-dp"></img>
-            <h3>John Snow</h3>
-            <p>Specialization:-</p>
-              <ul>
-                <li>Criminal Law</li>
-                <li>Civil Law</li>
-                <li>Family Law</li>
-              </ul>
-              <p>Location:- Bhubaneswar,Odisha,India</p>
-              <button onClick={handleBookAppointmentClick}>Book An Appointment</button>
-              <button onClick={handleProfile}>View Profile</button>
-              <button onClick={handleChatClick}>Chat with Lawyer</button>
-          </div>
-          <div className='profile'>
-            <img src = "https://picsum.photos/200/300" alt="profile-dp"></img>
-            <h3>John Snow</h3>
-            <p>Specialization:-</p>
-              <ul>
-                <li>Criminal Law</li>
-                <li>Civil Law</li>
-                <li>Family Law</li>
-              </ul>
-              <p>Location:- Bhubaneswar,Odisha,India</p>
-              <button onClick={handleBookAppointmentClick}>Book An Appointment</button>
-              <button onClick={handleProfile}>View Profile</button>
-              <button onClick={handleChatClick}>Chat with Lawyer</button>
-          </div>
-          <div className='profile'>
-            <img src = "https://picsum.photos/200/300" alt="profile-dp"></img>
-            <h3>John Snow</h3>
-            <p>Specialization:-</p>
-              <ul>
-                <li>Criminal Law</li>
-                <li>Civil Law</li>
-                <li>Family Law</li>
-              </ul>
-              <p>Location:- Bhubaneswar,Odisha,India</p>
-              <button onClick={handleBookAppointmentClick}>Book An Appointment</button>
-              <button onClick={handleProfile}>View Profile</button>
-              <button onClick={handleChatClick}>Chat with Lawyer</button>
-          </div>
+        
+          <div className="df">
+    <div className="cardq" onClick={(handleProfile)}>
+      <img src="https://picsum.photos/200" alt=""  /><h3>Akshay Sahoo</h3><p>Lorem ipsum dolor sit.</p>
+    </div>
+    <div  className="cardq"> <img src="https://picsum.photos/200" alt=""  /><h3>Akshay</h3><p>Lorem ipsum dolor sit.</p>
+  </div>
+    <div className="cardq" onClick={(handleProfile)}> <img src="https://picsum.photos/200" alt=""  /><h3>Akshay</h3><p>Immigration Notary</p></div>
+    <div className="cardq" onClick={(handleProfile)}> <img src="https://picsum.photos/200" alt=""  /><h3>Akshay</h3><p>Lorem ipsum dolor sit.</p></div>
+    <div className="cardq" onClick={(handleProfile)}> <img src="https://picsum.photos/200" alt=""  /><h3>Akshay</h3><p>Lorem ipsum dolor sit.</p></div>
+    <div className="cardq" onClick={(handleProfile)}> <img src="https://picsum.photos/200" alt=""  /><h3>Akshay</h3><p>Lorem ipsum dolor sit.</p></div>
+    <div className="cardq"onClick={(handleProfile)}> <img src="https://picsum.photos/200" alt=""  /><h3>Akshay</h3><p>Lorem ipsum dolor sit.</p></div>
+    <div className="cardq" onClick={(handleProfile)}> <img src="https://picsum.photos/200" alt=""  /><h3>Akshay</h3><p>Lorem ipsum dolor sit.</p></div>
+    </div>
           
-        </div>
+        
       )}
     </div>
   );

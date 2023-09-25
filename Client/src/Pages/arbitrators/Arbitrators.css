@@ -72,3 +72,32 @@
     width: 300px;
     border-radius: 10%;
 }
+.df-Arbitrators{
+    height: 1000px;
+  
+    width: 95%;
+    margin: auto;
+    margin-top: 500px;
+   position: absolute;
+    display: grid;
+   grid-template-columns: auto auto auto;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+img{
+    height: 170px;
+    width: 450px;
+    border-radius: 0;
+}
+.cardq:hover{
+           transform: scale(1.02); 
+}
+ .cardq h3{
+    margin-left: 190px;
+    margin-bottom: 0;
+}
+.cardq p{
+    margin-top: 0;
+    margin-bottom: 15px;
+    margin-left: 150px;
+}

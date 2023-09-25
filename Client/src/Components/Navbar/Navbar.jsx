@@ -60,7 +60,7 @@ function Navbar() {
                 {!currentUser &&  <Link to="/register" className="link"><span>Join</span></Link>}
                 {currentUser && (
                     <div className="user" onClick={()=>setOpen(!open)}>
-                        <img src = {currentUser.img || "https://picsum.photos/200"} alt = "profile" />
+                        <img className='Nav-img' src = {currentUser.img || "https://picsum.photos/200"} alt = "profile" />
                         <span>{currentUser?.username} </span>
                         {open && <div className="options">
                             {currentUser?.isSeller && (

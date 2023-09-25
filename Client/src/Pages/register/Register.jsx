@@ -116,6 +116,24 @@ function Register() {
             <option value="Expert">Expert</option>
           </select>
           <br />
+          <label htmlFor="">Specialization </label>
+          <select name="Sub-Category" id="prof">
+            <option value="Lawyer">Criminal Law</option>
+            <option value="Arbitrator">Civil Law</option>
+            <option value="DocumentWriter">Family Law</option>
+            <option value="Notary">Intellectual Property Law</option>
+            <option value="Expert">Property Law</option>
+          </select>
+          <br />
+          <label htmlFor="">Enter your bank account no</label>
+          <textarea
+            placeholder="Enter your account no "
+            name="desc"
+            id=""
+            cols="20"
+            rows="2"
+            onChange={handleChange}
+          ></textarea>
           <label htmlFor="">Description</label>
           <textarea
             placeholder="A short description of yourself"

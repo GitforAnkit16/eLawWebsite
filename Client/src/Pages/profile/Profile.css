@@ -1,11 +1,11 @@
-/* Profile container */
+
 .profile-container {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
   }
   
-  /* Profile header */
+  
   .profile-header {
     display: flex;
     align-items: center;
@@ -18,17 +18,16 @@
     margin-right: 20px;
   }
   
-  /* About Me section */
+  
   .about-me {
     margin-top: 20px;
   }
-  
-  /* Cases section */
+ 
   .cases {
     margin-top: 20px;
   }
   
-  /* Reviews section */
+  
   .reviews {
     margin-top: 20px;
   }

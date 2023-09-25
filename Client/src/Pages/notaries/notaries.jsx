@@ -1,12 +1,19 @@
 import React, { useState } from 'react';
 import './notaries.css';
-
+import { useNavigate } from 'react-router-dom';
 function Notaries() {
   const [activeCategory, setActiveCategory] = useState(null);
-
+  const navigate = useNavigate();
   const handleCategoryClick = (category) => {
     setActiveCategory(activeCategory === category ? null : category);
   };
+  const handleProfile = async () => {
+    try{
+        navigate("/profile");
+     }catch(err){
+        console.log(err);
+     }
+  }
 
   const med = [
     "Notary Public",
@@ -42,118 +49,21 @@ function Notaries() {
         ))}
       </div>
       {activeCategory && (
-        <div className='profiles'>
-        <span className='header-Arbitratoryer'>Profiles for {activeCategory}</span>
-          <div className='profile'>
-            <img src = "https://picsum.photos/200/300" alt="profile-dp"></img>
-            <h3>John Snow</h3>
-            <p>Specialization:-</p>
-              <ul>
-                <li>Criminal Notaries</li>
-                <li>Civil Notaries</li>
-                <li>Family Notaries</li>
-              </ul>
-              <p>Location:- Bhubaneswar,Odisha,India</p>
-               <button>Book An Appointment</button> 
-          </div>
-          <div className='profile'>
-            <img src = "https://picsum.photos/200/300" alt="profile-dp"></img>
-            <h3>John Snow</h3>
-            <p>Specialization:-</p>
-              <ul>
-                <li>Criminal Notaries</li>
-                <li>Civil Notaries</li>
-                <li>Family Notaries</li>
-              </ul>
-              <p>Location:- Bhubaneswar,Odisha,India</p>
-               <button>Book An Appointment</button> 
-          </div>
-          <div className='profile'>
-            <img src = "https://picsum.photos/200/300" alt="profile-dp"></img>
-            <h3>John Snow</h3>
-            <p>Specialization:-</p>
-              <ul>
-                <li>Criminal Notaries</li>
-                <li>Civil Notaries</li>
-                <li>Family Notaries</li>
-              </ul>
-              <p>Location:- Bhubaneswar,Odisha,India</p>
-               <button>Book An Appointment</button> 
-          </div>
-          <div className='profile'>
-            <img src = "https://picsum.photos/200/300" alt="profile-dp"></img>
-            <h3>John Snow</h3>
-            <p>Specialization:-</p>
-              <ul>
-                <li>Criminal Notaries</li>
-                <li>Civil Notaries</li>
-                <li>Family Notaries</li>
-              </ul>
-              <p>Location:- Bhubaneswar,Odisha,India</p>
-               <button>Book An Appointment</button> 
-          </div>
-          <div className='profile'>
-            <img src = "https://picsum.photos/200/300" alt="profile-dp"></img>
-            <h3>John Snow</h3>
-            <p>Specialization:-</p>
-              <ul>
-                <li>Criminal Notaries</li>
-                <li>Civil Notaries</li>
-                <li>Family Notaries</li>
-              </ul>
-              <p>Location:- Bhubaneswar,Odisha,India</p>
-               <button>Book An Appointment</button> 
-          </div>
-          <div className='profile'>
-            <img src = "https://picsum.photos/200/300" alt="profile-dp"></img>
-            <h3>John Snow</h3>
-            <p>Specialization:-</p>
-              <ul>
-                <li>Criminal Notaries</li>
-                <li>Civil Notaries</li>
-                <li>Family Notaries</li>
-              </ul>
-              <p>Location:- Bhubaneswar,Odisha,India</p>
-               <button>Book An Appointment</button> 
-          </div>
-          <div className='profile'>
-            <img src = "https://picsum.photos/200/300" alt="profile-dp"></img>
-            <h3>John Snow</h3>
-            <p>Specialization:-</p>
-              <ul>
-                <li>Criminal Notaries</li>
-                <li>Civil Notaries</li>
-                <li>Family Notaries</li>
-              </ul>
-              <p>Location:- Bhubaneswar,Odisha,India</p>
-               <button>Book An Appointment</button> 
-          </div>
-          <div className='profile'>
-            <img src = "https://picsum.photos/200/300" alt="profile-dp"></img>
-            <h3>John Snow</h3>
-            <p>Specialization:-</p>
-              <ul>
-                <li>Criminal Notaries</li>
-                <li>Civil Notaries</li>
-                <li>Family Notaries</li>
-              </ul>
-              <p>Location:- Bhubaneswar,Odisha,India</p>
-               <button>Book An Appointment</button> 
-          </div>
-          <div className='profile'>
-            <img src = "https://picsum.photos/200/300" alt="profile-dp"></img>
-            <h3>John Snow</h3>
-            <p>Specialization:-</p>
-              <ul>
-                <li>Criminal Notaries</li>
-                <li>Civil Notaries</li>
-                <li>Family Notaries</li>
-              </ul>
-              <p>Location:- Bhubaneswar,Odisha,India</p>
-               <button>Book An Appointment</button> 
-          </div>
+        <div className="df-notaries">
+    <div className="cardq" onClick={(handleProfile)}>
+      <img src="https://picsum.photos/200" alt=""  /><h3>Akshay Sahoo</h3><p>Lorem ipsum dolor sit.</p>
+    </div>
+    <div  className="cardq"> <img src="https://picsum.photos/200" alt=""  /><h3>Akshay</h3><p>Lorem ipsum dolor sit.</p>
+  </div>
+    <div className="cardq" onClick={(handleProfile)}> <img src="https://picsum.photos/200" alt=""  /><h3>Akshay</h3><p>Immigration Notary</p></div>
+    <div className="cardq" onClick={(handleProfile)}> <img src="https://picsum.photos/200" alt=""  /><h3>Akshay</h3><p>Lorem ipsum dolor sit.</p></div>
+    <div className="cardq" onClick={(handleProfile)}> <img src="https://picsum.photos/200" alt=""  /><h3>Akshay</h3><p>Lorem ipsum dolor sit.</p></div>
+    <div className="cardq" onClick={(handleProfile)}> <img src="https://picsum.photos/200" alt=""  /><h3>Akshay</h3><p>Lorem ipsum dolor sit.</p></div>
+    <div className="cardq"onClick={(handleProfile)}> <img src="https://picsum.photos/200" alt=""  /><h3>Akshay</h3><p>Lorem ipsum dolor sit.</p></div>
+    <div className="cardq" onClick={(handleProfile)}> <img src="https://picsum.photos/200" alt=""  /><h3>Akshay</h3><p>Lorem ipsum dolor sit.</p></div>
+    </div>
           
-        </div>
+       
       )}
     </div>
   );
