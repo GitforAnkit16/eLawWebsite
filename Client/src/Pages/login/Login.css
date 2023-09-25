@@ -1,15 +1,23 @@
 
 .login {
+    background-color: #f76c6c;
     display: flex;
     align-items: center;
     justify-content: center;
-  
-    form {
-      width: 360px;
+}
+.logbar{
+  margin: 50px;
+  background-color: #f8e9a1;
+  padding: 30px
+}
+     .loginform {
+      padding: 40px;
+      width: 300px;
       padding: 100px 0px;
       display: flex;
       flex-direction: column;
       gap: 20px;
+    }
   
       h1 {
         color: gray;
@@ -37,9 +45,5 @@
         cursor: pointer;
       }
   
-      span{
-        color: red;
-        font-size: 12px;
-      }
-    }
-  }
+      
+    

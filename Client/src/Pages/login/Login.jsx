@@ -23,7 +23,8 @@ function Login() {
 
   return (
     <div className="login">
-      <form onSubmit={handleSubmit}>
+      <div className = "logbar">
+      <form className ="loginform"onSubmit={handleSubmit}>
         <h1>Sign in</h1>
         <label htmlFor="">Username</label>
         <input
@@ -42,6 +43,7 @@ function Login() {
         <button type="submit">Login</button>
         {error && error}
       </form>
+      </div>
     </div>
   );
 }

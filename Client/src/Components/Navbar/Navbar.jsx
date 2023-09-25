@@ -45,7 +45,7 @@ function Navbar() {
                         <span>Services</span>
                         {op && <div className="option">
                             <Link className='link' to=  "/lawyers">Lawyers</Link>
-                            <Link className='link' to=  "/arbitrators">Arbitratorss</Link>
+                            <Link className='link' to=  "/arbitrators">Arbitrators</Link>
                             <Link className='link' to= "/mediators">Mediators </Link>
                             <Link className='link' to= "/notaries">Notaries </Link>
                             <Link className='link' to= "/docwriters">Document Writers </Link>

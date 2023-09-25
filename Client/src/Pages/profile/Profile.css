@@ -1,0 +1,71 @@
+/* Profile container */
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Profile header */
+  .profile-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  /* About Me section */
+  .about-me {
+    margin-top: 20px;
+  }
+  
+  /* Cases section */
+  .cases {
+    margin-top: 20px;
+  }
+  
+  /* Reviews section */
+  .reviews {
+    margin-top: 20px;
+  }
+  
+  .review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .client-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .client-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .client-name {
+    font-weight: bold;
+  }
+  
+  .star-rating {
+    display: flex;
+  }
+  
+  .star {
+    color: gold;
+    font-size: 1.2em;
+    margin-right: 5px;
+  }
+  
+  .review-text {
+    margin: 0;
+  }
+  
