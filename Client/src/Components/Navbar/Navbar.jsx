@@ -40,7 +40,6 @@ function Navbar() {
             </Link>
             </div>
             <div className="links">
-                
                     <div className="services" onClick={()=>setOp(!op)}>
                         <span>Services</span>
                         {op && <div className="option">

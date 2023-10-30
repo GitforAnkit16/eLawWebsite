@@ -1,5 +1,5 @@
 .ask{
-    height: 400px;
+    height: 500px;
     width: 100%;
     background: rgb(230,90,255);
     background: linear-gradient(82deg, rgba(230,90,255,0.8968837535014006) 0%, rgba(84,36,207,1) 60%);
@@ -9,7 +9,9 @@
    
 }
  .ask h1
-{color: rgb(0, 0, 0);}
+{color: rgb(0, 0, 0);
+    font-size: 54px;
+}
 .con{
     height: 700px;
     background-color: rgb(208, 209, 209);

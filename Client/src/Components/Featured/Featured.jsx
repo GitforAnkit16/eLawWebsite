@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Featured.css"
 import search from "../../images/search.svg"
+
 function Featured() {
   return (
     <div className='featured'>

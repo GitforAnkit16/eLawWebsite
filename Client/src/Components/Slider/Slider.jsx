@@ -1,31 +1,49 @@
-import "./Slider.css";
-import React from 'react'
-
+import React, { useState } from 'react';
+import './Slider.css';
+import { useNavigate } from 'react-router-dom';
 function Slider() {
-    
+  const [activeCategory, setActiveCategory] = useState(null);
+  const navigate = useNavigate();
+  const handleCategoryClick = (category) => {
+    navigate('/lawyers');
+  };
+
+  const categorie = [
+    "Divorce",
+    "Contracts",
+    "Harassements",
+    "Properties",
+    "Drafting",
+    "Finance",
+    "Consumer",
+    "Litigation",
+    "Bail",
+    "Bankrupty",
+    "Probono",
+    "Negotiation",
+    "White Collar",
+    "Criminal",
+    "Realestate",
+    "Healthcare",
+    "Tax",
+    "More"
+  ];
+
   return (
     <div className='Slider'>
-        <div className='header'><h2>Our Catogory</h2></div>
-        <div className='card'>
-                <div className="product--image img1"></div>
-                <h2>Criminal Law</h2>
-                <button>Know More</button>
-            </div>
-            <div className='card'>
-                <div className="product--image img2"></div>
-                <h2>Civil Law</h2>
-                <button>Know More</button>
-            </div>
-            <div className='card'>
-                <div className="product--image img3"></div>
-                <h2>Family Law</h2>
-                <button>Know More</button>
-            </div>
-    </div>
-  )
-}
+      <div className='yop'>Categories</div>
+      <div className='grido'>
+        {categorie.map((category, index) => (
+          <div
+            key={index}
+            className= "categorye"
+            onClick={() => handleCategoryClick()}
+          >
+            <span className='.tutter'>{category}</span>
+          </div>
+        ))}
+      </div>
+        </div>
+      )}
 
-export default Slider
-
-
-
+export default Slider;

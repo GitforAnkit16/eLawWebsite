@@ -5,20 +5,35 @@
     background-color: #374785;
     color:white;
     padding-bottom: 300px;
+    background-image: url(../../images/Featured.png);
+    background-repeat: no-repeat;
 }
+
 .featured .container{
     width: 1400px;
     display: flex;
     align-items: center;
+  
 }
 .left{
     display: flex;
     flex-direction: column;
     gap:30px;
+    margin-top: 200px;
 }
 .left p{
+    width:18ch;
     font-size: 35px;
     margin-left: 520px;
+    border-right: 3px solid;
+    overflow: hidden;
+    animation: type 2s steps(20) infinite;
+    white-space: nowrap;
+}
+@keyframes type{
+    from{
+        width: 0;
+    }
 }
 .search{
     display: flex;

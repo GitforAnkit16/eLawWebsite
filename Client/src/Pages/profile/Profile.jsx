@@ -6,8 +6,10 @@ import { useNavigate } from 'react-router-dom';
 const Profile = () => {
   const lawyerData = {
     name: 'John Doe',
+    location:'Bhubaneswar, Odisha, India',
+    specialization:'Criminal Law, Civil Law, Family Law',
     aboutMe: 'I am an experienced lawyer with expertise in various areas of law...',
-    cases: ['Case 1', 'Case 2', 'Case 3'],
+    cases: ['Solved a Case regarding a Crime', 'Solved an Issue regarding a property matter', 'Solved a Case regarding Intellectual Property'],
     reviews: [
       {
         name: 'Client 1',
@@ -73,7 +75,14 @@ const Profile = () => {
         <h2>About Me</h2>
         <p>{lawyerData.aboutMe}</p>
       </div>
-
+      <div className="location">
+        <h2>Location</h2>
+        <p>{lawyerData.location}</p>
+      </div>
+      <div className="specialization">
+        <h2>Specialization</h2>
+        <p>{lawyerData.specialization}</p>
+      </div>
       <div className="cases">
         <h2>Cases</h2>
         <ul>
@@ -97,7 +106,7 @@ const Profile = () => {
         </ul>
       </div>
 
-      {/* Review input and submit button */}
+    
       <div className="review-input">
         <textarea
           placeholder="Write your review here..."
@@ -107,8 +116,8 @@ const Profile = () => {
         <button onClick={handleReviewSubmit}>Submit Review</button>
       </div>
 
-      <button onClick={handleBookAppointmentClick}>Book An Appointment</button>
-      <button onClick={handleChatClick}>Chat with Lawyer</button>
+      <button className="profile-button" onClick={handleBookAppointmentClick}>Book An Appointment</button>
+      <button className="profile-button" onClick={handleChatClick}>Chat with Lawyer</button>
     </div>
   );
 };

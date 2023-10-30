@@ -1,13 +1,13 @@
 .navbar {
     color: white;
-    background-color:#374785;
+    background-color: #000;
     transition: 0.5s all ease;
     position: sticky;
     top: 0;
     z-index: 100;
 }
 .navbar-active{
-    background-color:#f76c6c;
+    background-color:white;
     position: sticky;
     top: 0;
 }
@@ -22,8 +22,7 @@
 }
 .links{
     display: flex;
-    margin-right: 150px;
-    margin-top: 10px;
+ 
 }
 .link{
     text-decoration: none;

@@ -9,20 +9,7 @@ function Lawyers() {
   };
   const navigate = useNavigate();
 
-  const handleBookAppointmentClick = async () => {
-      try{
-          navigate("/appointment");
-       }catch(err){
-          console.log(err);
-       }
-  }
-  const handleChatClick = async () => {
-    try{
-        navigate("/messages");
-     }catch(err){
-        console.log(err);
-     }
-}
+  
 const handleProfile = async () => {
   try{
       navigate("/profile");

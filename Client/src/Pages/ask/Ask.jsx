@@ -16,6 +16,7 @@ function ask() {
     <a href="http://"><i class="fa-solid fa-phone"></i></a>
            <p>Call with Expert </p>
     </div>
+    <button>Pay Now</button>
    </div>
    </>
   )

@@ -1,13 +1,14 @@
 
 .login {
-    background-color: #f76c6c;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .logbar{
   margin: 50px;
-  background-color: #f8e9a1;
+  background-color:transparent;
   padding: 30px
 }
      .loginform {
@@ -19,13 +20,13 @@
       gap: 20px;
     }
   
-      h1 {
-        color: gray;
+      ha {
+        color:white;
         margin-bottom: 20px;
       }
   
       label {
-        color: gray;
+        color:white;
         font-size: 18px;
       }
   
@@ -35,13 +36,13 @@
         border: 1px solid rgb(216, 214, 214);
       }
   
-      button {
-        border: none;
+      .button-login {
+        border: 2px solid rgb(2,0,36);
         padding: 20px;
         color: white;
         font-weight: 500;
         font-size: 18px;
-        background-color: #1dbf73;
+        background-color:transparent;
         cursor: pointer;
       }
   

@@ -24,8 +24,8 @@ function Login() {
   return (
     <div className="login">
       <div className = "logbar">
-      <form className ="loginform"onSubmit={handleSubmit}>
-        <h1>Sign in</h1>
+      <form className ="loginform" onSubmit={handleSubmit}>
+        <h1 className="ha">Sign in</h1>
         <label htmlFor="">Username</label>
         <input
           name="username"
@@ -40,7 +40,7 @@ function Login() {
           type="password"
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button type="submit">Login</button>
+        <button className="button-login" type="submit">Login</button>
         {error && error}
       </form>
       </div>

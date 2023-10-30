@@ -1,64 +1,58 @@
-.product--image {
-    width: 100%;
-    height: 16em;
-    object-fit: cover;
-    border-radius:0%;
-  }
-  .Slider{
-    background-color: #f76c6c;
-    padding-top: 10px;
-    padding-bottom: 40px;
-  }
- 
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 280px;
-    margin: auto 1rem;
-    text-align: center;
-    font-family: arial;
-    margin: 30 px;
-    margin-left: 150px;
-    background-color:  #f8e9a1;
-    display: inline-flex;
-    flex-direction: column;
-  }
-.header{
-    display: flex;
-    justify-content: center;
-    margin-right: 100px;
-    margin: 15px;
+.Slider{
+  height: 450;
+  background-color: #002244;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
-.header h2{
-  color:black;
-}
-
-.card button{
-    border: none;
-    padding: 5px;
-    color: white;
-    font-weight: 500;
-    font-size: 12px;
-    background-color: 1dbfbf;
-    cursor: pointer;
+.grido{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 80px 80px 80px;
+  gap: 25px;
+  padding: 20px;
   
-
+  height: 400px;
+  width: 100%;
+  padding-bottom:80px;
+}
+.categorye{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 15px;
+  width: 100px;
+  padding: 30px;
+  color: black;
+}
+.categorye:hover{
+  transform: scale(1.02);
+  background-color: rgb(214, 224, 224);
+}
+.category span{
+  font-weight: bolder;
+  font-size: 15px;
+}
+.header-lawyer{
+  display: block;
+  color: black;
+  margin-left: 490px;
+ margin-top: 20px;
 }
 
-.react-multiple-carousel__arrow--right {
-  right: calc(1% + 1px);
+.tutter{
+  border-radius: 100px;
 }
-.img1{
-  background-image: url("../../images/Criminal\ Law.png");
-  height: 280px;
-  width: 280px;
-}
-.img2{
-  background-image: url("../../images/Civil\ Law.png");
-  height: 280px;
-  width: 280px;
-}
-.img3{
-  background-image: url("../../images/Family\ Law.png");
-  height: 280px;
-  width: 280px;
+
+.yop{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 30px;
+  color: white;
 }
